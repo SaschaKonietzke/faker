@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{faker}
-  s.version = "0.3.2.yolk"
+  s.version = "0.3.3.yolk"
 
-  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
+  s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
   s.authors = ["Benjamin Curtis"]
-  s.date = %q{2010-08-02}
+  s.date = %q{2010-12-05}
   s.description = %q{Faker, a port of Data::Faker from Perl, is used to easily generate fake data: names, addresses, phone numbers, etc. The port was motivated by a need for a bunch of fake data to make good-looking screenshots for Catch the Best. :)}
   s.email = %q{ben@bencurtis.com}
   s.extra_rdoc_files = [
@@ -18,9 +18,11 @@ Gem::Specification.new do |s|
   s.files = [
     ".gitignore",
      "History.txt",
+     "License.txt",
      "README.txt",
      "Rakefile",
      "VERSION",
+     "faker.gemspec",
      "lib/extensions/array.rb",
      "lib/faker.rb",
      "lib/faker/address.rb",
@@ -54,7 +56,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{http://faker.rubyforge.org/}
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{A port of Perl‘s Data::Faker library that generates fake data.}
+  s.summary = %q{A port of Perl's Data::Faker library that generates fake data.}
   s.test_files = [
     "test/test_faker.rb",
      "test/test_faker_internet.rb",
