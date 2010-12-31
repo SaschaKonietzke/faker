@@ -1,10 +1,11 @@
 $:.unshift File.dirname(__FILE__)
 
 require 'faker/address'
+require 'faker/name'
 require 'faker/company'
 require 'faker/internet'
 require 'faker/lorem'
-require 'faker/name'
+
 require 'faker/phone_number'
 require 'faker/isbn'
 require 'faker/version'
